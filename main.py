@@ -30,8 +30,6 @@ def parse_csv(path):
                 customers[customer_id] = {'id:': customer_id,
                                           'accounts': []}
 
-
-
     print(customers)
 
     pass
