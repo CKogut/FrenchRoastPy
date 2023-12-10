@@ -1,5 +1,1 @@
-[{"id": 10, "accounts": [{"accountNumber": 20, "balance": -238.24}, {"accountNumber": 22, "balance": 432.93}, {"accountNumber": 25, "balance": 583.73}]},
-{"id": 11, "accounts": [{"accountNumber": 21, "balance": 812.45}, {"accountNumber": 24, "balance": -542.67}]},
-{"id": 12, "accounts": [{"accountNumber": 20, "balance": -907.89}, {"accountNumber": 21, "balance": -976.01}, {"accountNumber": 22, "balance": -1695.83}, {"accountNumber": 23, "balance": -374.9}, {"accountNumber": 24, "balance": -697.57}, {"accountNumber": 26, "balance": -666.25}]},
-{"id": 13, "accounts": [{"accountNumber": 24, "balance": -906.81}, {"accountNumber": 25, "balance": -196.11}]},
-{"id": 14, "accounts": [{"accountNumber": 21, "balance": -1765.03}, {"accountNumber": 22, "balance": -663.59}, {"accountNumber": 24, "balance": 530.19}, {"accountNumber": 25, "balance": -394.0}, {"accountNumber": 26, "balance": 480.25}]}]
+{"balance":{"(10, 20)":-238.24,"(10, 22)":432.93,"(10, 25)":583.73,"(11, 21)":812.45,"(11, 24)":-542.67,"(12, 20)":-907.89,"(12, 21)":-976.01,"(12, 22)":-1695.83,"(12, 23)":-374.9,"(12, 24)":-697.57,"(12, 26)":-666.25,"(13, 24)":-906.81,"(13, 25)":-196.11,"(14, 21)":-1765.03,"(14, 22)":-663.59,"(14, 24)":530.19,"(14, 25)":-394.0,"(14, 26)":480.25}}
