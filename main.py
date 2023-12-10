@@ -1,46 +1,40 @@
-import pandas as pd
+import csv
+import json
 
 
-class Customer:
-    def __init__(self, customerId):
-        self.customerId = customerId
-        self.accounts = []
-
-    def __str__(self):
-        return f"{self.customerId}({self.accounts})"
-
-
-class Account:
-    def __init__(self, accountId):
-        self.accountId = accountId
-        self.balance = 0
-
-    def withdrawal(self, amount):
-        self.balance -= amount
-
-    def deposit(self, amount):
-        self.balance += amount
-
-    def __str__(self):
-        return f"{self.accountId}({self.balance})"
+# Create a dictionary with below format
+# {<customer_id> : {"id": 11,
+#                       "accounts": [{"accountNumber": 21,
+#                                     "balance": 812.45}
+#                                    {"accountNumber": 24,
+#                                     "balance": -542.67}]},
 
 
-# Create df using only needed information
-df = pd.read_csv('resources/secondset.csv',
-                 index_col='transactionId',
-                 usecols=[0, 1, 2, 3, 4])
+def parse_csv(path):
+    # Empty dictionary for customer information
+    # Key is customerId: value is a dictionary
+    customers = {}
 
-print(df.head())
+    # Use dict reader, so I can use column names rather than indexes
+    with open(path, 'r') as csv_file:
+        file = csv.DictReader(csv_file)
 
-customerIdList = []
-customerList = []
+        for row in file:
+            customer_id = int(row['customerId'])
+            account_id = int(row['accountId'])
+            transaction_type = row['transactionType']
+            amount = float(row['amount'])
 
-for index, row in df.iterrows():
-    if row['customerId'] not in customerIdList:
-        customerList.append(Customer(row['customerId']))
-        customerIdList.append(row['customerId'])
-
-print(customerIdList)
-print(customerList)
+            # Check is customer_id exists, if not add with empty accounts list
+            if customer_id not in customers:
+                customers[customer_id] = {'id:': customer_id,
+                                          'accounts': []}
 
 
+
+    print(customers)
+
+    pass
+
+
+parse_csv('resources/secondset.csv')
