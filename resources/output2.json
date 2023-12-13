@@ -3,15 +3,15 @@
     "id": 10,
     "accounts": [
       {
-        "account_id": 20,
+        "accountNumber": 20,
         "balance": -238.24
       },
       {
-        "account_id": 22,
+        "accountNumber": 22,
         "balance": 432.93
       },
       {
-        "account_id": 25,
+        "accountNumber": 25,
         "balance": 583.73
       }
     ]
@@ -20,11 +20,11 @@
     "id": 11,
     "accounts": [
       {
-        "account_id": 21,
+        "accountNumber": 21,
         "balance": 812.45
       },
       {
-        "account_id": 24,
+        "accountNumber": 24,
         "balance": -542.67
       }
     ]
@@ -33,27 +33,27 @@
     "id": 12,
     "accounts": [
       {
-        "account_id": 20,
+        "accountNumber": 20,
         "balance": -907.89
       },
       {
-        "account_id": 21,
+        "accountNumber": 21,
         "balance": -976.01
       },
       {
-        "account_id": 22,
+        "accountNumber": 22,
         "balance": -1695.83
       },
       {
-        "account_id": 23,
+        "accountNumber": 23,
         "balance": -374.9
       },
       {
-        "account_id": 24,
+        "accountNumber": 24,
         "balance": -697.57
       },
       {
-        "account_id": 26,
+        "accountNumber": 26,
         "balance": -666.25
       }
     ]
@@ -62,11 +62,11 @@
     "id": 13,
     "accounts": [
       {
-        "account_id": 24,
+        "accountNumber": 24,
         "balance": -906.81
       },
       {
-        "account_id": 25,
+        "accountNumber": 25,
         "balance": -196.11
       }
     ]
@@ -75,23 +75,23 @@
     "id": 14,
     "accounts": [
       {
-        "account_id": 21,
+        "accountNumber": 21,
         "balance": -1765.03
       },
       {
-        "account_id": 22,
+        "accountNumber": 22,
         "balance": -663.59
       },
       {
-        "account_id": 24,
+        "accountNumber": 24,
         "balance": 530.19
       },
       {
-        "account_id": 25,
+        "accountNumber": 25,
         "balance": -394.0
       },
       {
-        "account_id": 26,
+        "accountNumber": 26,
         "balance": 480.25
       }
     ]
